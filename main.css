@@ -50,7 +50,7 @@ body {
   }
 
   .contador__texto {
-    font-size: 50px;
+    font-size: 45px;
     padding-top: 50px;
     
   }
@@ -101,6 +101,10 @@ body {
         
         display: block; 
         align-items: center;
+    }
+
+    .contador {
+        height: 750px;
     }
 }
 
