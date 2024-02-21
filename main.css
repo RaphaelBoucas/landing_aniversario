@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+
+    }
+
+body {
+    color: #fff;
+    background-color: rgb(7, 5, 0);
+}
+
+.container {
+    max-width: 1028px;
+    margin: 0 auto;
+}
+
+
+.contador {
+    height: 700px;
+    background-image: url("./bgKaraoke.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    padding-top: 150px;
+    padding-bottom: 100px;
+    position: relative;
+    text-align: center;
+}
+
+.contador__avatar {
+    width: 250px;
+    border: 10px solid #ffffff46;
+    border-image: linear-gradient(45deg, rgba(255, 217, 0, 0.3), rgba(255, 20, 145, 0.3)) 1;
+}
+
+.contador .container {
+    position: relative;
+}
+
+.contador:before {
+    content: "";
+    opacity: .7;
+    background-color: #000;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+
+  .contador__texto {
+    font-size: 50px;
+    padding-top: 50px;
+    
+  }
+
+  .informacoes {
+    margin-top: 160px;
+    background-image: linear-gradient(180deg, rgba(255, 20, 145, 0.3), rgba(255, 217, 0, 0.3));
+  }
+
+.bar,
+.localizacao {
+    display: flex; 
+    align-items: center;
+    padding-bottom: 30px;
+}
+
+.apresentacao__imagem {
+    max-width: 700px;
+    margin: 100px auto 10px auto;
+    width: 100%;
+}
+
+.bar__imagem,
+.localizacao__imagem {
+    max-width: 400px;
+    width: 100%;
+    margin: 30px;
+}
+
+.apresentacao__texto,
+.bar__texto,
+.localizacao__texto {
+    max-width: 700px;
+    margin: 15px auto 10px auto;
+    text-align: justify;
+    width: 100%;
+}
+
+.rodape__texto {
+    align-items: center;
+    padding: 30px 0;
+    font-weight: bold;
+}
+
+@media (max-width: 768px) {
+    .bar,
+    .localizacao {
+        
+        display: block; 
+        align-items: center;
+    }
+}
+
+
+  
